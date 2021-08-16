@@ -5,6 +5,9 @@
   "main": "lib/index.js",
   "author": "Aleksei Bespalov <nulldefiner@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
   "peerDependencies": {
     "webpack-dev-server": "^4.0.0-rc.0"
   },
