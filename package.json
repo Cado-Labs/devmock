@@ -1,0 +1,14 @@
+{
+  "name": "devmock",
+  "version": "1.0.0",
+  "description": "Weback Dev Server mock engine",
+  "main": "lib/index.js",
+  "author": "Aleksei Bespalov <nulldefiner@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "webpack-dev-server": "^4.0.0-rc.0"
+  },
+  "dependencies": {
+    "glob": "^7.1.7"
+  }
+}
