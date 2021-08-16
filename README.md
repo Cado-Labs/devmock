@@ -1,5 +1,8 @@
 # DevMock
 
+[![CI](https://github.com/Cado-Labs/devmock/actions/workflows/ci.yml/badge.svg)](https://github.com/Cado-Labs/devmock/actions/workflows/ci.yml)
+[![npm version](https://badge.fury.io/js/devmock.svg)](https://badge.fury.io/js/devmock)
+
 Webpack Dev Server mocking engine
 
 ## Install
