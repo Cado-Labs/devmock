@@ -43,3 +43,41 @@ devServer: {
   })
 }
 ```
+
+## API
+
+```js
+DevMock.make({
+  mocksPath: "mocks/*.mock.js", // glob supported path to your mock files (required)
+})
+```
+
+`DevMock.make` and `DevMock.v3` has the same params.
+
+## Mock file format
+
+```js
+// mocks/exmaple.mock.js
+
+module.exports = {
+  path: "/users",           // Query path (required)
+  method: "GET",            // HTTP method (optional, default: GET)
+  delay: 300,               // Response delay in ms (optional, default: 0)
+  status: 200,              // Response status code (options, default: 200)
+  response: [               // Response object (optional, default: {})
+    { id: 1, name: "John" },
+    { id: 2, name: "Mary" },
+    { id: 3, name: "Bob" },
+  ]
+}
+```
+
+Both `status` and `response` params can be a function of request params:
+
+```js
+module.exports = {
+  path: "/users",
+  status: params => params.error ? 422 : 200,
+  response: params => params.error ? { success: false } : { success: true }
+}
+```
