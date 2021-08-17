@@ -1,7 +1,4 @@
-# DevMock
-
-[![CI](https://github.com/Cado-Labs/devmock/actions/workflows/ci.yml/badge.svg)](https://github.com/Cado-Labs/devmock/actions/workflows/ci.yml)
-[![npm version](https://badge.fury.io/js/devmock.svg)](https://badge.fury.io/js/devmock)
+# DevMock &middot; [![Supporting](https://github.com/Cado-Labs/cado-labs-logos/blob/main/cado_labs_badge.svg)](https://github.com/Cado-Labs/) &middot; [![CI](https://github.com/Cado-Labs/devmock/actions/workflows/ci.yml/badge.svg)](https://github.com/Cado-Labs/devmock/actions/workflows/ci.yml) &middot; [![npm version](https://badge.fury.io/js/devmock.svg)](https://badge.fury.io/js/devmock)
 
 Webpack Dev Server mocking engine
 
@@ -81,3 +78,26 @@ module.exports = {
   response: params => params.error ? { success: false } : { success: true }
 }
 ```
+---
+
+## Contributing
+
+- Fork it ( https://github.com/Cado-Labs/devmock )
+- Create your feature branch (`git checkout -b feature/my-new-feature`)
+- Commit your changes (`git commit -am '[feature_context] Add some feature'`)
+- Push to the branch (`git push origin feature/my-new-feature`)
+- Create new Pull Request
+
+## License
+
+Released under MIT License.
+
+## Supporting
+
+<a href="https://github.com/Cado-Labs">
+  <img src="https://github.com/Cado-Labs/cado-labs-logos/blob/main/cado_labs_logo.png" alt="Supported by Cado Labs" />
+</a>
+
+## Authors
+
+[Aleksei Bespalov](https://github.com/nulldef)
