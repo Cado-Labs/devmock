@@ -1,4 +1,5 @@
-# DevMock &middot; [![Supporting](https://github.com/Cado-Labs/cado-labs-logos/blob/main/cado_labs_badge.svg)](https://github.com/Cado-Labs/) &middot; [![CI](https://github.com/Cado-Labs/devmock/actions/workflows/ci.yml/badge.svg)](https://github.com/Cado-Labs/devmock/actions/workflows/ci.yml) &middot; [![npm version](https://badge.fury.io/js/devmock.svg)](https://badge.fury.io/js/devmock)
+# DevMock &middot; [![Supporting](https://github.com/Cado-Labs/cado-labs-resources/blob/main/cado_labs_badge.png)](https://github.com/Cado-Labs/)
+ &middot; [![CI](https://github.com/Cado-Labs/devmock/actions/workflows/ci.yml/badge.svg)](https://github.com/Cado-Labs/devmock/actions/workflows/ci.yml) &middot; [![npm version](https://badge.fury.io/js/devmock.svg)](https://badge.fury.io/js/devmock)
 
 Webpack Dev Server mocking engine
 
